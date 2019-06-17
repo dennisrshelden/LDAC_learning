@@ -1,1 +1,12 @@
+<BLDG_1> <is_a> <Building> .
+<ROOM_1> <is_a> <Room> .
+<BLDG_1> <containsSpace> <ROOM_1> .
+<WALL_1> <is_a> <Wall> .
+<WALL_2> <is_a> <Wall> .
+<WALL_3> <is_a> <Wall> .
+<WALL_4> <is_a> <Wall> .
+<ROOM_1> <bounded_by> <WALL_1> .
+<ROOM_1> <bounded_by> <WALL_2> .
+<ROOM_1> <bounded_by> <WALL_3> .
+<ROOM_1> <bounded_by> <WALL_4> .
 
